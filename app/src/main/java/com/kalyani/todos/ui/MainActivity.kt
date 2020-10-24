@@ -31,6 +31,7 @@ class MainActivity : AppCompatActivity() {
 //first repository cre
         //testing brannch created
         //testing 2 test
+        //checked
         todvmodel.getdata().observe(this, Observer {
             recyclerview.layoutManager = LinearLayoutManager(applicationContext)
             pgr.visibility = View.GONE
