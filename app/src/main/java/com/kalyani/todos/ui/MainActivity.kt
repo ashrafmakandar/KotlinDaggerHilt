@@ -33,6 +33,7 @@ class MainActivity : AppCompatActivity() {
         //testing 2 test
         //checked
         //test branch two
+        //chccking two branch
         todvmodel.getdata().observe(this, Observer {
             recyclerview.layoutManager = LinearLayoutManager(applicationContext)
             pgr.visibility = View.GONE
