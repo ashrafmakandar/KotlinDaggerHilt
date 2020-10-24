@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         todvmodel.getdatas()
         pgr.visibility = View.VISIBLE
 
-
+//first commeny
         todvmodel.getdata().observe(this, Observer {
             recyclerview.layoutManager = LinearLayoutManager(applicationContext)
             pgr.visibility = View.GONE
