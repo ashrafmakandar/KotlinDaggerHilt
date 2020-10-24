@@ -35,6 +35,7 @@ class MainActivity : AppCompatActivity() {
         //test branch two
         //chccking two branch
         //testing recent frombranch two
+        //last test for merge
         todvmodel.getdata().observe(this, Observer {
             recyclerview.layoutManager = LinearLayoutManager(applicationContext)
             pgr.visibility = View.GONE
